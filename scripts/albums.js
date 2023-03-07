@@ -12,5 +12,5 @@ let albums = [
   ['MANIA', 'Fall Out Boy', 'Alternative'],
   ['Starboy', 'The Weeknd', "Hip-Hop/Soul"],
   ['Calle 13', 'Calle 13', "Urbano Latino"]
-]
+];
 

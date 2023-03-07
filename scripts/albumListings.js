@@ -12,6 +12,19 @@ let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
 
 // insert your code here
- 
-for (int i = 0, i < albums.lenth)
+function djPlaylist( arr ) {
+    for ( let i = 0; 10 < arr.length; i++ ) {
+        return moreAlbumsMessage;
+        html += `<li>${ arr[i][0] }, by ${ arr[i][1] }, genre: ${ arr[i][3]}`;
+        return html;
+    }
+    else {
+        return playMusicMessage;
+        html += `<li>${ arr[i][0] }, by ${ arr[i][1] }, genre: ${ arr[i][3]}`;
+        return html; 
+    }
+}
+
+djPlaylist( albums );
+
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
