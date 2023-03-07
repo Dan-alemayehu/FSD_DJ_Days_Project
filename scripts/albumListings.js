@@ -12,5 +12,6 @@ let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
 
 // insert your code here
-
+ 
+for (int i = 0, i < albums.lenth)
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
