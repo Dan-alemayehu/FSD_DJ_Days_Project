@@ -11,6 +11,13 @@ let html = '';
 let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!"
 
+for ( let i = 0; i < albums.length; i++ ) {
+    html += `
+        <h2>${albums[i].name}</h2>
+        <h3>${albums[i].artist}</h3>
+        <p>${albums[i].genre}</p>`;
+   
+}
 
 
 // insert your code here
@@ -20,13 +27,13 @@ if ( albums.length < 10) {
     return playMusicMessage;
 }
 
-for ( let i = 0; i < albums.length; i++ ) {
-        html += `
-            <h2>${albums[i].name}</h2>
-            <h3>${albums[i].artist}</h3>
-            <p>${albums[i].genre}</p>`
+// for ( let i = 0; i < albums.length; i++ ) {
+//         html += `
+//             <h2>${albums[i].name}</h2>
+//             <h3>${albums[i].artist}</h3>
+//             <p>${albums[i].genre}</p>`
        
- }
+//  }
 
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
