@@ -16,7 +16,7 @@ let albums = [
   {
   name: 'Back to Black', 
   artist: 'Amy Winehouse', 
-  genre: 'R&B?Soul'
+  genre: 'R&B/Soul'
   },
   
   {
@@ -36,6 +36,7 @@ let albums = [
   artist: 'Calle 13',
   genre: 'Urbano Latino'
   }
+
 ];
 
 

@@ -8,8 +8,25 @@
 //The message variables have also been included
 
 // let moreAlbumsMessage = "You need more albums!";
-// let playMusicMessage = "Let's start playing music!"
+// let playMusicMessage = "Let's start playing music!";
+
+let limit = albums.length;
+
+if ( 9 >  limit ) {
+     let moreAlbumsMessage = "You need more albums!";
+     let header = document.querySelector("header");
+     header.innerHTML =
+     `<h4>${moreAlbumsMessage}</h4>`;
+} else {
+     let playMusicMessage = "Let's start playing music!";
+     let header = document.querySelector("header");
+     header.innerHTML =
+     `<h4>${playMusicMessage}</h4>`;
+};
+
 // let situation = ablums.length;
+
+
 
 let html = '';
 
