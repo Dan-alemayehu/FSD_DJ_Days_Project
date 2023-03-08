@@ -8,34 +8,39 @@
 
 let albums = [
   {
-  name: '4:44', 
-  artist: 'Jay-z', 
-  genre: 'Hip-Hop/Rap'
+  name: 'Electric Ladyland', 
+  artist: 'The Jimi Hendrix Experience', 
+  genre: 'Rock',
+  photo: 'img/Hendrix.jpg'
   },
   
   {
   name: 'Back to Black', 
   artist: 'Amy Winehouse', 
-  genre: 'R&B/Soul'
+  genre: 'R&B/Soul',
+  photo: 'img/Winehouse.jpg'
   },
   
   {
   name: 'MANIA', 
   artist: 'Fall Out Boy', 
-  genre: 'Alternative'
+  genre: 'Alternative',
+  photo: 'img/FalloutBoy.png'
   },
   
   {
   name: 'Starboy',
   artist: 'The Weeknd',
   genre: 'Hip-Hop/Soul',
+  photo: 'img/Weeknd.jpg'
   },
   
   {
   name: 'Calle 13', 
   artist: 'Calle 13',
-  genre: 'Urbano Latino'
-  }
+  genre: 'Urbano Latino',
+  photo: 'img/Calle13.jpg'
+  },
 
 ];
 
