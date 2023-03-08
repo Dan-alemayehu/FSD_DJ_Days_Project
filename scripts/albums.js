@@ -7,10 +7,35 @@
 */
 
 let albums = [
-  [4:44, 'Jay-z', 'Hip-Hop/Rap'],
-  ['Back to Black', 'Amy Winehouse', 'R&B?Soul'],
-  ['MANIA', 'Fall Out Boy', 'Alternative'],
-  ['Starboy', 'The Weeknd', "Hip-Hop/Soul"],
-  ['Calle 13', 'Calle 13', "Urbano Latino"]
+  {
+  name: '4:44', 
+  artist: 'Jay-z', 
+  genre: 'Hip-Hop/Rap'
+  },
+  
+  {
+  name: 'Back to Black', 
+  artist: 'Amy Winehouse', 
+  genre: 'R&B?Soul'
+  },
+  
+  {
+  name: 'MANIA', 
+  artist: 'Fall Out Boy', 
+  genre: 'Alternative'
+  },
+  
+  {
+  name: 'Starboy',
+  artist: 'The Weeknd',
+  genre: 'Hip-Hop/Soul',
+  },
+  
+  {
+  name: 'Calle 13', 
+  artist: 'Calle 13',
+  genre: 'Urbano Latino'
+  }
 ];
+
 

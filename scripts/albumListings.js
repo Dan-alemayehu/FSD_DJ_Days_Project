@@ -9,22 +9,24 @@
 
 let html = '';
 let moreAlbumsMessage = "You need more albums!";
-let playMusicMessage = "Let's start playing music!";
+let playMusicMessage = "Let's start playing music!"
+
+
 
 // insert your code here
-function djPlaylist( arr ) {
-    for ( let i = 0; 10 < arr.length; i++ ) {
-        return moreAlbumsMessage;
-        html += `<li>${ arr[i][0] }, by ${ arr[i][1] }, genre: ${ arr[i][3]}`;
-        return html;
-    }
-    else {
-        return playMusicMessage;
-        html += `<li>${ arr[i][0] }, by ${ arr[i][1] }, genre: ${ arr[i][3]}`;
-        return html; 
-    }
+if ( albums.length < 10) {
+    return moreAlbumsMessage;
+} else {
+    return playMusicMessage;
 }
 
-djPlaylist( albums );
+for ( let i = 0; i < albums.length; i++ ) {
+        html += `
+            <h2>${albums[i].name}</h2>
+            <h3>${albums[i].artist}</h3>
+            <p>${albums[i].genre}</p>`
+       
+ }
+
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
