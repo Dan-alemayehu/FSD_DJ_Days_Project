@@ -10,9 +10,14 @@
 // let moreAlbumsMessage = "You need more albums!";
 // let playMusicMessage = "Let's start playing music!";
 
+// ## *albumListing.js*
+// - "for loop" to list *albums in albums.js*
+// - If there are less than 10 albums: show *<h4>* message to say "You need more albums!"
+// - Otherwise, show message to say *<h4>*"Let's start playing music!"
+
 let limit = albums.length;
 
-if ( 9 >  limit ) {
+if ( 10 >  limit ) {
      let moreAlbumsMessage = "You need more albums!";
      let header = document.querySelector("header");
      header.innerHTML =

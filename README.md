@@ -7,26 +7,29 @@ Refer back to the pet directory in-class demo for ideas...
 
 ## Instructions
 
-In this repository you have several pre-made files where you will work on your project. You will not need to touch *index.html* or *stylesheet.css*
+Don't edit:
+-*index.html* 
+-*stylesheet.css*
 
-You will create a website that will serve as your DJ album list. If there are less than 10 albums, the website will show a message to tell you that you need more albums. If there are 10 albums or more, the website will let you know that you're ready to start playing music!
+-If there are less than 10 albums: show message to say you need more albums. 
+-If there are 10 albums or more, show message to say ready to start playing music!
 
 ## *albums.js*
-In this file, you will create an array of 5 'album' objects. Each object should have the following properties: 
-- "name"
-- "artist"
-- "genre".
+-Make array of 5 'album' objects. 
+-Each object with these properties:
+- name
+- artist
+- genre
 
-Optionally, you can also add an "artwork" property with an image of the album cover.
+Optionally: add an "artwork" property with album cover.
 
 #### Note:
 
-- Remember to test the functionality to see that the correct messaging appears if there are 10 albums
 
 ## *albumListing.js*
-- In this file, you will create a "for loop" that will list all of the albums in *albums.js*
-- If there are less than 10 albums, an *<h4>* message should be populated in the header that says "You need more albums!"
-- Otherwise, an *<h4>* message should be populated in the header that says "Let's start playing music!"
+- "for loop" to list *albums in albums.js*
+- If there are less than 10 albums: show *<h4>* message to say "You need more albums!"
+- Otherwise, show message to say *<h4>*"Let's start playing music!"
 
 #### Notes:
 
