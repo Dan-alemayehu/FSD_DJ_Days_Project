@@ -36,16 +36,31 @@ if ( 10 >  limit ) {
 let html = '';
 
 for (let i = 0; i < albums.length; i++) {
+
+     if (i === 1 || i === 2 || i === 3) {
  
  html += `
  
       <h2>${albums[i].name}</h2>
       <h3>${albums[i].artist}</h3>
       <p>Genre: ${albums[i].genre}</p>
-      <img src="${albums[i].photo}" alt="${albums[i].artist}">
+      <img src="${albums[i].artwork}" alt="${albums[i].artist}">
+      <p>Top 3 Favorites!</p>
  
  `;
-  
+     } else {
+           
+ html += `
+ 
+ <h2>${albums[i].name}</h2>
+ <h3>${albums[i].artist}</h3>
+ <p>Genre: ${albums[i].genre}</p>
+ <img src="${albums[i].artwork}" alt="${albums[i].artist}">
+
+`;
+
+     }
+
 };
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);       
