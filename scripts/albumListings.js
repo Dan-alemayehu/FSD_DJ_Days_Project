@@ -37,7 +37,7 @@ let html = '';
 
 for (let i = 0; i < albums.length; i++) {
 
-     if (i === 1 || i === 2 || i === 3) {
+     if (i === 1 || i === 7 || i === 8) {
  
  html += `
  

@@ -37,10 +37,10 @@ let albums = [
   },
   
   {
-    name: 'Starboy',
+    name: 'Beauty Behind the Madness',
     artist: 'The Weeknd',
-    genre: 'Hip-Hop/Soul',
-    artwork: 'img/Weeknd.jpg'
+    genre: 'R&B/Soul',
+    artwork: 'img/Weeknd2.jpg'
   },
   
   {
@@ -49,6 +49,42 @@ let albums = [
     genre: 'Urbano Latino',
     artwork: 'img/Calle13.jpg'
   },
+
+  {
+    name: 'AM', 
+    artist: 'Arctic Monkeys', 
+    genre: 'Alternative',
+    artwork: 'img/ArcticMonkeys.jpeg'
+  },
+  
+  {
+    name: 'MADE', 
+    artist: 'BIGBANG', 
+    genre: 'K-Pop',
+    artwork: 'img/Bigbang.jpg'
+  },
+  
+  {
+    name: 'Pray for the Wicked', 
+    artist: 'Panic! At the Disco', 
+    genre: 'Alternative',
+    artwork: 'img/Panic!.jpg'
+  },
+  
+  {
+    name: 'Starboy',
+    artist: 'The Weeknd',
+    genre: 'R&B/Soul',
+    artwork: 'img/Weeknd.jpg'
+  },
+  
+  {
+    name: 'Lioness: Hidden Treasures', 
+    artist: 'Amy Winehouse',
+    genre: 'Pop',
+    artwork: 'img/Winehouse2.jpg'
+  },
+
 
 ];
 
