@@ -17,6 +17,7 @@
 
 let limit = albums.length;
 
+
 if ( 10 >  limit ) {
      let moreAlbumsMessage = "You need more albums!";
      let header = document.querySelector("header");
@@ -28,9 +29,6 @@ if ( 10 >  limit ) {
      header.innerHTML =
      `<h4>${playMusicMessage}</h4>`;
 };
-
-// let situation = ablums.length;
-
 
 
 let html = '';
@@ -45,9 +43,10 @@ for (let i = 0; i < albums.length; i++) {
       <h3>${albums[i].artist}</h3>
       <p>Genre: ${albums[i].genre}</p>
       <img src="${albums[i].artwork}" alt="${albums[i].artist}">
-      <p>Top 3 Favorites!</p>
- 
+      <p>Top 3 Favorite!</p>
+
  `;
+
      } else {
            
  html += `
@@ -63,4 +62,33 @@ for (let i = 0; i < albums.length; i++) {
 
 };
 
-document.querySelector('main').insertAdjacentHTML('beforeend', html);       
+document.querySelector('main').insertAdjacentHTML('beforeend', html);  
+
+for ( i = 0; i < document.querySelectorAll('h2').length; i++) {
+     
+     if (i === 1 || i === 7 || i === 8) {
+     document.querySelectorAll('h2')[i].style.color = '#FFD700';
+     } else {
+          document.querySelectorAll('h2')[i].style.color = '#d634ff';
+          document.querySelectorAll('h2')[i].style.fontFamily = '"Times New Roman", Times, serif';
+     }
+}
+
+for ( i = 0; i < document.querySelectorAll('h3').length; i++) {
+     if (i === 1 || i === 7 || i === 8) {
+     document.querySelectorAll('h3')[i].style.color = '#FFD700';
+     } else {
+          document.querySelectorAll('h3')[i].style.color = '#4ff465f1';
+          document.querySelectorAll('h3')[i].style.fontFamily = '"Times New Roman", Times, serif';
+     }
+}
+
+for ( i = 0; i < document.getElementsByTagName('p').length; i++) {
+     
+     if (i === 1 || i === 2 || i === 8 || i === 9 || i === 10 || i ===11) {
+     document.getElementsByTagName('p')[i].style.color = '#FFD700';
+     } else {
+          document.querySelectorAll('p')[i].style.color = '#FF9B00';
+          document.querySelectorAll('p')[i].style.fontFamily = '"Times New Roman", Times, serif';
+     }
+}
